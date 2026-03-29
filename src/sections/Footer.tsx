@@ -1,5 +1,4 @@
 import { useTranslation } from 'react-i18next';
-import { Heart } from 'lucide-react';
 
 export const Footer = () => {
   const { t } = useTranslation();
@@ -16,10 +15,6 @@ export const Footer = () => {
           </div>
           
           <div className="flex items-center gap-2 text-sm text-muted-foreground">
-            <span>{t('footer.madeWith')}</span>
-            <Heart className="h-4 w-4 text-red-500 fill-red-500" />
-            <span>+</span>
-            <span className="text-primary font-medium">React</span>
           </div>
         </div>
       </div>
