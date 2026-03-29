@@ -85,7 +85,29 @@
   "certifications": {
     "title": "Certificações & Cursos",
     "subtitle": "Formação Complementar",
-    "items": [],
+    "items": [
+      {
+        "name": "Bootcamp Santander Back-end",
+        "institution": "Santander Brasil",
+        "year": "2024",
+        "link": "https://hermes.dio.me/certificates/IHF6WMW5.pdf",
+        "description": "Bootcamp Santander 2024 - Back-end com Java (86h). Especialização focada em Java 21, Spring Boot 3 e APIs RESTful, com experiência prática em persistência de dados (SQL/NoSQL), testes automatizados com JUnit/Mockito e metodologias ágeis."
+      },
+      {
+        "name": "Google: Inteligência Artificial e Produtividade",
+        "institution": "Google",
+        "year": "2024",
+        "link": "done",
+        "description": "Santander | Google: Inteligência Artificial e Produtividade (2024). Desenvolvimento de habilidades práticas em IA Generativa e Engenharia de Prompts utilizando o Google Gemini para automação de fluxos de trabalho, otimização de tarefas profissionais e ganho de produtividade diária."
+      },
+      {
+        "name": "React essentials",
+        "institution": "Rocketseat",
+        "year": "2025",
+        "link": "https://app.rocketseat.com.br/certificates/257bd45e-4185-4413-a312-0e0dacf811e3",
+        "description": "Fundamentos de React e Rotas HTTP. Domínio de conceitos essenciais de React, como Componentização, Hooks e Gerenciamento de Estado. Foco na integração de interfaces com rotas HTTP e APIs REST para o desenvolvimento de aplicações web dinâmicas."
+      }
+    ],
     "empty": {
       "title": "Em breve",
       "description": "Certificações e cursos serão adicionados aqui. Esta seção está preparada para receber novos conteúdos."
@@ -106,7 +128,13 @@
       {
         "name": "ANU – Gestão de Colaboradores",
         "description": "Plataforma para gestão de cronogramas em empresas com múltiplos projetos simultâneos. Dashboard com monitoramento de carga horária, controle de ausências e alertas automáticos para contratos vencendo e profissionais em bench.",
-        "technologies": ["Node.js", "MongoDB", "React", "TypeScript", "Mantine UI"],
+        "technologies": [
+          "Node.js",
+          "MongoDB",
+          "React",
+          "TypeScript",
+          "Mantine UI"
+        ],
         "highlight": true
       }
     ]

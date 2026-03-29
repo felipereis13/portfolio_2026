@@ -105,7 +105,27 @@
   "certifications": {
     "title": "Certifications & Courses",
     "subtitle": "Additional Training",
-    "items": [],
+    "items": [{
+      "name": "Bootcamp Santander: JAVA Back-end",
+      "institution": "Santander Brasil",
+      "year": "2024",
+      "link": "https://hermes.dio.me/certificates/IHF6WMW5.pdf",
+      "description": "Santander Bootcamp 2024 - Java Back-end (86 hours). Specialized in Java 21, Spring Boot 3, and RESTful APIs, with hands-on experience in data persistence (SQL/NoSQL), automated testing with JUnit/Mockito, and Agile methodologies."
+    },
+    {
+      "name": "Google: Inteligência Artificial e Produtividade",
+      "institution": "Google",
+      "year": "2024",
+      "link": "done",
+      "description": "Santander | Google: AI and Productivity (2024). Developed practical skills in Generative AI and Prompt Engineering using Google Gemini to automate workflows, optimize professional tasks, and enhance daily productivity."
+    },
+  {
+    "name": "React essentials",
+    "institution": "Rocketseat",
+    "year": "2025",
+    "link": "https://app.rocketseat.com.br/certificates/257bd45e-4185-4413-a312-0e0dacf811e3",
+    "description": "React Fundamentals & HTTP. Mastered core React concepts, including Componentization, Hooks, and State Management. Focused on integrating front-end applications with HTTP routes and REST APIs to build dynamic and responsive web interfaces."
+  }],
     "empty": {
       "title": "Coming Soon",
       "description": "Certifications and courses will be added here. This section is prepared to receive new content."
