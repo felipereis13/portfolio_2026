@@ -1,0 +1,144 @@
+{
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "experience": "Experience",
+    "education": "Education",
+    "skills": "Skills",
+    "certifications": "Certifications",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "role": "Backend Developer | FullStack Developer",
+    "description": "Transforming ideas into robust and scalable digital solutions",
+    "contactBtn": "Get in touch",
+    "projectsBtn": "View projects",
+    "downloadCV": "Download CV"
+  },
+  "about": {
+    "title": "About Me",
+    "subtitle": "Professional Summary",
+    "description": "Developer in training with practical experience in real projects delivered to clients such as Cesar School and Mesa Tech, including an award-winning project at Porto Digital. Currently pursuing a degree in Systems Analysis and Development at SENAC, I also have a degree in Accounting Sciences, which gives me a strategic advantage for positions in financial systems and ERPs. Knowledge in Java, Spring Boot, React, Node.js and TypeScript, with experience in agile methodologies and version control with Git.",
+    "objective": "I am looking for an internship opportunity in Software Development, with the goal of applying and improving my knowledge."
+  },
+  "experience": {
+    "title": "Work Experience",
+    "subtitle": "Career Journey",
+    "present": "Present",
+    "jobs": [
+      {
+        "company": "Montreal Informática",
+        "role": "Data Entry Clerk",
+        "period": "2023 – Present",
+        "location": "Olinda, PE - Brazil",
+        "description": "Data entry and updating in systems/spreadsheets, information verification, document organization and administrative support, ensuring accuracy and meeting deadlines."
+      },
+      {
+        "company": "EGF Cursos",
+        "role": "IT Analyst",
+        "period": "2022 – 2023",
+        "location": "Olinda, PE - Brazil",
+        "description": "Website page updates and optimization with HTML and CSS, improving user experience and fixing visual inconsistencies. Technical support to customers with service and ticket resolution, as well as preventive and corrective maintenance of equipment. Commercial support in the sale of info products, including registration, delivery and after-sales support."
+      }
+    ]
+  },
+  "education": {
+    "title": "Education",
+    "subtitle": "Academic Background",
+    "courses": [
+      {
+        "institution": "Centro Universitário SENAC",
+        "degree": "Systems Analysis and Development",
+        "period": "July 2024 - December 2026",
+        "type": "Bachelor",
+        "description": "Technological degree focused on software development, software engineering and IT project management."
+      },
+      {
+        "institution": "Faculdade de Ciências Humanas de Olinda",
+        "degree": "Accounting Sciences",
+        "period": "February 2017 - November 2021",
+        "type": "Bachelor",
+        "description": "Accounting degree providing strategic vision for financial systems and ERPs."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "subtitle": "Technologies & Competencies",
+    "technical": "Technical Skills",
+    "soft": "Soft Skills",
+    "backend": "Back-end",
+    "frontend": "Front-end",
+    "database": "Database",
+    "tools": "Tools",
+    "softSkills": [
+      "Communication",
+      "Teamwork",
+      "Problem Solving",
+      "Organization",
+      "Adaptability",
+      "Proactivity"
+    ]
+  },
+  "projects": {
+    "title": "Projects",
+    "subtitle": "Project Portfolio",
+    "viewRepo": "View Repository",
+    "viewDemo": "View Demo",
+    "items": [
+      {
+        "name": "Neuro - Appointment Manager",
+        "description": "Web system for psychopedagogists to organize appointments, scheduling, reports and document storage per patient, replacing the use of spreadsheets and manual notebooks.",
+        "technologies": ["React", "HTML", "CSS", "Bootstrap"],
+        "highlight": true
+      },
+      {
+        "name": "ANU – Employee Management",
+        "description": "Platform for schedule management in companies with multiple simultaneous projects. Dashboard with workload monitoring, absence control and automatic alerts for expiring contracts and professionals on bench.",
+        "technologies": ["Node.js", "MongoDB", "React", "TypeScript", "Mantine UI"],
+        "highlight": true
+      }
+    ]
+  },
+  "certifications": {
+    "title": "Certifications & Courses",
+    "subtitle": "Additional Training",
+    "items": [],
+    "empty": {
+      "title": "Coming Soon",
+      "description": "Certifications and courses will be added here. This section is prepared to receive new content."
+    }
+  },
+  "languages": {
+    "title": "Languages",
+    "subtitle": "Language Proficiency",
+    "items": [
+      {
+        "name": "Portuguese",
+        "level": "Native"
+      },
+      {
+        "name": "English",
+        "level": "Intermediate (Technical reading and basic conversation)"
+      },
+      {
+        "name": "Spanish",
+        "level": "Basic"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Let's Talk",
+    "email": "Email",
+    "phone": "Phone",
+    "location": "Location",
+    "message": "I am available for internship opportunities and freelance projects. Get in touch!"
+  },
+  "footer": {
+    "rights": "All rights reserved",
+    "madeWith": "Developed with"
+  }
+}

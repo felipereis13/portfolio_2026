@@ -1,0 +1,144 @@
+{
+  "header": {
+    "home": "Início",
+    "about": "Sobre",
+    "experience": "Experiência",
+    "education": "Educação",
+    "skills": "Habilidades",
+    "certifications": "Certificações",
+    "projects": "Projetos",
+    "contact": "Contato"
+  },
+  "hero": {
+    "greeting": "Olá, eu sou",
+    "role": "Desenvolvedor Backend | FullStack",
+    "description": "Transformando ideias em soluções digitais robustas e escaláveis",
+    "contactBtn": "Entre em contato",
+    "projectsBtn": "Ver projetos",
+    "downloadCV": "Baixar CV"
+  },
+  "about": {
+    "title": "Sobre Mim",
+    "subtitle": "Resumo Profissional",
+    "description": "Desenvolvedor em formação com experiência prática em projetos reais entregues para clientes como Cesar School e Mesa Tech, incluindo um projeto premiado no Porto Digital. Graduando em Análise e Desenvolvimento de Sistemas pelo SENAC, tenho ainda formação em Ciências Contábeis, o que me oferece um diferencial estratégico para posições em sistemas financeiros e ERPs. Conhecimentos em Java, Spring Boot, React, Node.js e TypeScript, com vivência em metodologias ágeis e controle de versão com Git.",
+    "objective": "Busco oportunidade de estágio na área de Desenvolvimento de Software, com o objetivo de aplicar e aprimorar meus conhecimentos."
+  },
+  "experience": {
+    "title": "Experiência Profissional",
+    "subtitle": "Trajetória de Carreira",
+    "present": "Atual",
+    "jobs": [
+      {
+        "company": "Montreal Informática",
+        "role": "Digitador",
+        "period": "2023 – Atual",
+        "location": "Olinda, PE",
+        "description": "Digitação e atualização de dados em sistemas/planilhas, conferência de informações, organização de documentos e apoio administrativo, assegurando precisão e cumprimento de prazos."
+      },
+      {
+        "company": "EGF Cursos",
+        "role": "Analista de TI",
+        "period": "2022 – 2023",
+        "location": "Olinda, PE",
+        "description": "Atualização e otimização de páginas do site com HTML e CSS, melhorando a experiência do usuário e corrigindo inconsistências visuais. Suporte técnico ao cliente com atendimento e resolução de chamados, além de manutenção preventiva e corretiva de equipamentos. Apoio comercial na venda de infoprodutos, incluindo cadastro, entrega e suporte pós-venda."
+      }
+    ]
+  },
+  "education": {
+    "title": "Educação",
+    "subtitle": "Formação Acadêmica",
+    "courses": [
+      {
+        "institution": "Centro Universitário SENAC",
+        "degree": "Análise e Desenvolvimento de Sistemas",
+        "period": "Julho 2024 - Dezembro 2026",
+        "type": "Superior",
+        "description": "Graduação tecnológica focada em desenvolvimento de software, engenharia de software e gestão de projetos de TI."
+      },
+      {
+        "institution": "Faculdade de Ciências Humanas de Olinda",
+        "degree": "Ciências Contábeis",
+        "period": "Fevereiro 2017 - Novembro 2021",
+        "type": "Superior",
+        "description": "Formação em contabilidade proporcionando visão estratégica para sistemas financeiros e ERPs."
+      }
+    ]
+  },
+  "skills": {
+    "title": "Habilidades",
+    "subtitle": "Tecnologias & Competências",
+    "technical": "Habilidades Técnicas",
+    "soft": "Soft Skills",
+    "backend": "Back-end",
+    "frontend": "Front-end",
+    "database": "Banco de Dados",
+    "tools": "Ferramentas",
+    "softSkills": [
+      "Comunicação",
+      "Trabalho em Equipe",
+      "Resolução de Problemas",
+      "Organização",
+      "Adaptabilidade",
+      "Proatividade"
+    ]
+  },
+  "certifications": {
+    "title": "Certificações & Cursos",
+    "subtitle": "Formação Complementar",
+    "items": [],
+    "empty": {
+      "title": "Em breve",
+      "description": "Certificações e cursos serão adicionados aqui. Esta seção está preparada para receber novos conteúdos."
+    }
+  },
+  "projects": {
+    "title": "Projetos",
+    "subtitle": "Portfólio de Projetos",
+    "viewRepo": "Ver Repositório",
+    "viewDemo": "Ver Demo",
+    "items": [
+      {
+        "name": "Neuro - Gerenciador de Atendimentos",
+        "description": "Sistema web para psicopedagogos organizarem atendimentos, agendamentos, relatórios e armazenamento de documentos por paciente, substituindo o uso de planilhas e cadernos manuais.",
+        "technologies": ["React", "HTML", "CSS", "Bootstrap"],
+        "highlight": true
+      },
+      {
+        "name": "ANU – Gestão de Colaboradores",
+        "description": "Plataforma para gestão de cronogramas em empresas com múltiplos projetos simultâneos. Dashboard com monitoramento de carga horária, controle de ausências e alertas automáticos para contratos vencendo e profissionais em bench.",
+        "technologies": ["Node.js", "MongoDB", "React", "TypeScript", "Mantine UI"],
+        "highlight": true
+      }
+    ]
+  },
+  "languages": {
+    "title": "Idiomas",
+    "subtitle": "Proficiência Linguística",
+    "items": [
+      {
+        "name": "Português",
+        "level": "Nativo"
+      },
+      {
+        "name": "Inglês",
+        "level": "Básica"
+      },
+      {
+        "name": "Espanhol",
+        "level": "Básico"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Contato",
+    "subtitle": "Vamos Conversar",
+    "email": "E-mail",
+    "phone": "Telefone",
+    "location": "Localização",
+    "message": "Estou disponível para oportunidades de estágio e projetos freelance. Entre em contato!"
+  },
+  "footer": {
+    "rights": "Todos os direitos reservados",
+    "madeWith": "Desenvolvido com"
+  }
+}
