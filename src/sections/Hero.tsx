@@ -134,7 +134,7 @@ export const Hero = () => {
               <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-to-br from-primary/20 to-primary/5 border-4 border-primary/20 flex items-center justify-center overflow-hidden">
                 <div className="text-center">
                   <div className="text-6xl sm:text-7xl lg:text-8xl font-bold text-primary/30 mb-2">
-                    FP
+                    FR
                   </div>
                   <div className="text-sm text-muted-foreground">
                     Full Stack Developer
