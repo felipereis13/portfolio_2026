@@ -4,6 +4,7 @@ import { Button } from '@/components/ui/button';
 import { Badge } from '@/components/ui/badge';
 import { ArrowDown, Download, Mail, Github, Linkedin } from 'lucide-react';
 import { useScrollTo } from '@/hooks/useScrollTo';
+import felipeImage from '@/assets/felipe.jpeg';
 
 export const Hero = () => {
   const { t } = useTranslation();
@@ -131,15 +132,12 @@ export const Hero = () => {
           >
             <div className="relative">
               <div className="absolute inset-0 bg-primary/20 rounded-full blur-3xl scale-110" />
-              <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-to-br from-primary/20 to-primary/5 border-4 border-primary/20 flex items-center justify-center overflow-hidden">
-                <div className="text-center">
-                  <div className="text-6xl sm:text-7xl lg:text-8xl font-bold text-primary/30 mb-2">
-                    FR
-                  </div>
-                  <div className="text-sm text-muted-foreground">
-                    Full Stack Developer
-                  </div>
-                </div>
+              <div className="relative w-64 h-64 sm:w-80 sm:h-80 lg:w-96 lg:h-96 rounded-full bg-gradient-to-br from-primary/20 to-primary/5 border-4 border-primary/20 overflow-hidden">
+                <img
+                  src={felipeImage}
+                  alt="Felipe Reis"
+                  className="h-full w-full object-cover"
+                />
               </div>
 
             </div>
