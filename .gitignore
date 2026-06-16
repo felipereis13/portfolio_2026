@@ -1,1 +1,33 @@
 /node_modules
+
+# Build output
+/dist
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.log
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# TypeScript
+*.tsbuildinfo
+
+# Test and coverage
+/coverage
+
+# Tool caches
+.vite
+.cache
+.eslintcache
+
+# Editor and OS files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
