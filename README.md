@@ -1,73 +1,128 @@
-# React + TypeScript + Vite
+# Portfolio 2026
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Portfólio pessoal de Felipe Reis desenvolvido para apresentar experiência, formação, habilidades técnicas, certificações, projetos e canais de contato em uma interface moderna, responsiva e bilíngue.
 
-Currently, two official plugins are available:
+## Visão Geral
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Este projeto foi construído como uma landing page de apresentação profissional, com foco em:
 
-## React Compiler
+- navegação fluida em página única;
+- suporte a múltiplos idiomas com `i18next`;
+- layout responsivo para desktop e mobile;
+- organização modular por seções reutilizáveis;
+- identidade visual moderna com `Tailwind CSS` e componentes `shadcn/ui`.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Preview do Conteúdo
 
-## Expanding the ESLint configuration
+O portfólio está organizado nas seguintes seções:
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- `Hero` com apresentação, links sociais e acesso ao currículo;
+- `Sobre` com resumo profissional e objetivo de carreira;
+- `Experiência` e `Educação`;
+- `Habilidades`, `Certificações` e `Projetos`;
+- `Idiomas` e `Contato`.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+## Stack Utilizada
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+- `React 19`
+- `TypeScript`
+- `Vite`
+- `Tailwind CSS`
+- `shadcn/ui`
+- `Radix UI`
+- `i18next` + `react-i18next`
+- `Lucide React`
+- `ESLint`
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+## Estrutura do Projeto
+
+```text
+src/
+  assets/        Arquivos estáticos
+  components/    Componentes reutilizáveis e UI
+  hooks/         Hooks customizados
+  i18n/          Configuração de idiomas e traduções
+  sections/      Seções principais da página
+  App.tsx        Composição da aplicação
+  main.tsx       Ponto de entrada
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Como Executar
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### Pré-requisitos
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+- `Node.js 20+`
+- `npm 10+` recomendado
+
+### Instalação
+
+```bash
+npm install
 ```
+
+### Ambiente de desenvolvimento
+
+```bash
+npm run dev
+```
+
+### Build de produção
+
+```bash
+npm run build
+```
+
+### Preview local da build
+
+```bash
+npm run preview
+```
+
+### Lint
+
+```bash
+npm run lint
+```
+
+## Diferenciais Técnicos
+
+- arquitetura simples e escalável para evolução do portfólio;
+- conteúdo desacoplado da interface via arquivos de tradução;
+- animações leves com foco em legibilidade e experiência;
+- componentes reutilizáveis que facilitam manutenção;
+- base pronta para expansão com novos projetos, certificados e idiomas.
+
+## Internacionalização
+
+O projeto possui suporte a dois idiomas:
+
+- `pt-BR`
+- `en`
+
+Os textos estão centralizados em:
+
+- `src/i18n/locales/pt.json`
+- `src/i18n/locales/en.json`
+
+## Personalização
+
+Para adaptar este portfólio para outro profissional, os principais pontos de edição são:
+
+- textos e dados em `src/i18n/locales/`;
+- links sociais e currículo nas seções da aplicação;
+- imagem de perfil em `src/assets/`;
+- estilos globais em `src/index.css` e `src/App.css`.
+
+## Deploy
+
+Por ser uma aplicação estática com Vite, este projeto pode ser publicado facilmente em plataformas como:
+
+- `Vercel`
+- `Netlify`
+- `GitHub Pages`
+
+Após o build, os arquivos finais são gerados em `dist/`.
+
+## Licença
+
+Este projeto está disponível para fins de estudo e personalização. Caso queira reutilizá-lo como base, o ideal é ajustar identidade visual, conteúdo e links antes da publicação.
